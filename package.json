@@ -1,0 +1,35 @@
+{
+  "name": "le-glaude-code",
+  "version": "1.0.0",
+  "description": "The first CLI powered by Rustic Intelligence™. Built on decades of cabbage soup wisdom.",
+  "main": "bin/glaude.js",
+  "bin": {
+    "glaude": "./bin/glaude.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "node bin/glaude.js commit && node bin/glaude.js review && node bin/glaude.js build && node bin/glaude.js status && node bin/glaude.js help"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "glaude",
+    "soupe-aux-choux",
+    "louis-de-funes",
+    "parody",
+    "rustic-intelligence",
+    "developer-tools",
+    "humor",
+    "french"
+  ],
+  "author": "Le Glaude <glaude@soupe-aux-choux.fr>",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ]
+}
